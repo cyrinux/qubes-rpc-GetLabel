@@ -1,0 +1,4 @@
+#!/bin/sh
+OUTPUT=/etc/qubes/label
+hostname
+exec cat >$OUTPUT
