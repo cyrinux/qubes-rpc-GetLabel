@@ -2,7 +2,7 @@
 A Qubes RPC service to inform an AppVM what label it has for theming purposes. The label is written as an English color to the /etc/qubes/label file, which can be changed in the qubes-get-label file with the OUTPUT variable
 
 # WARNING
-This RPC passes information to dom0 from an AppVM! This RPC has NOT been rigorously tested and anyone with extremely high security needs should be wary of installing it in its current state.
+This RPC has NOT been rigorously tested and anyone with extremely high security needs should be wary of installing it in its current state.
 
 ## Suggested Installation Directories
 qubes-get-label -> (AppVM) /usr/local/bin/qubes-get-label

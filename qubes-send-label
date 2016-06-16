@@ -1,5 +1,2 @@
-#!/bin/bash
-read INPUT
-VMNAME=${INPUT//[^a-zA-Z0-9-]/}
-#echo `qvm-prefs $VMNAME | grep label | awk -F ' : ' '{print $2}'`
-echo $VMNAME
+#!/bin/sh
+echo `qvm-prefs $QREXEC_REMOTE_DOMAIN label`
